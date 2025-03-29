@@ -1,0 +1,125 @@
+/* Main container styling */
+.main {
+    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Headers */
+h1, h2, h3 {
+    color: #343a40;
+}
+
+.stTitle {
+    font-weight: 700 !important;
+}
+
+/* Form styling */
+.stForm {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stTextInput > div > div > input {
+    border-radius: 5px;
+}
+
+.stTextArea > div > div > textarea {
+    border-radius: 5px;
+}
+
+/* Button styling */
+.stButton > button {
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+/* Future selector buttons */
+button[data-key="disciplined_btn"] {
+    background-color: #28a745;
+    color: white;
+}
+
+button[data-key="disciplined_btn"]:hover {
+    background-color: #218838;
+    color: white;
+}
+
+button[data-key="average_btn"] {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+button[data-key="average_btn"]:hover {
+    background-color: #e0a800;
+    color: #212529;
+}
+
+button[data-key="fallenoff_btn"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+button[data-key="fallenoff_btn"]:hover {
+    background-color: #c82333;
+    color: white;
+}
+
+/* Chat interface styling */
+.user-message {
+    background-color: #f1f3f5;
+    padding: 1rem;
+    border-radius: 15px 15px 15px 5px;
+    margin: 1rem 1rem 1rem 0;
+    max-width: 80%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.assistant-message {
+    padding: 1rem;
+    border-radius: 15px 15px 5px 15px;
+    margin: 1rem 0 1rem 1rem;
+    max-width: 80%;
+    margin-left: auto;
+    color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Different colors for different future selves */
+.disciplined-message {
+    background-color: #28a745;
+}
+
+.average-message {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.fallen-message {
+    background-color: #dc3545;
+}
+
+/* Form input focus */
+input:focus, textarea:focus, select:focus {
+    border-color: #6c757d !important;
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25) !important;
+}
+
+/* Expander styling */
+.streamlit-expanderHeader {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Container padding */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Modal dialog */
+.stAlert {
+    border-radius: 10px;
+}
